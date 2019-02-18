@@ -1,0 +1,97 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.body {
+	font-family: 'Crimson Text', serif;
+font-family: 'Dancing Script', cursive;
+}
+
+nav ul a,
+.nav-fixed {
+	color: brown;
+	margin: 0 20px;
+}
+nav .brand-logo {
+  color: brown;
+  position: absolute;
+  font-family: Dancing Script;
+}
+.right {
+	padding-right: 0px;
+	margin: 0 20px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  padding-bottom: 15px;
+}
+
+  .header {
+	font-size: 3.5em;
+  }
+  
+  .header-subtitle {
+	font-size: 1.5em;
+  }
+  
+  .parallax-container .section {
+    width: 100%;
+  }
+  
+  .header-iscriviti {
+	  font-size: 2em;
+  }
+ 
+ .btn-large {
+	margin-top: 45px;
+	padding-bottom: 15px;
+	width: 50%
+	}
+	  
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.social-footer {
+	font-size: 3em;
+	margin: 25px 0;
+}
+
+footer.page-footer {
+  padding-bottom: 20px;
+}
